@@ -1,0 +1,12 @@
+@import './utils/var'; //변수
+@import './utils/mixins'; //재활용 가능 소스
+
+@import './base/typo'; //폰트
+@import './base/reset'; //리셋
+@import './base/common'; //공통
+
+@import './layout/header'; //헤더
+@import './layout/nav'; //네비
+@import './layout/footer'; //푸터
+
+@import './pages/main'; //메인

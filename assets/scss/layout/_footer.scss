@@ -1,0 +1,38 @@
+.footer{
+    color: #fff;
+    background: #aaa;
+    line-height: 30px;
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 0;
+        .logo{
+            margin: 9px 0 23px;
+        }
+        .copy{
+            margin-top: 19px;
+        }
+        .group-customer{
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0 27px 22px;
+            width: 300px;
+            height: 167px;
+            font-size: 18px;
+            border: 2px solid rgba($color: #fff, $alpha: 0.5);
+            font-family: $font-en;
+            h3{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            p{
+                font-family: $font-kr;
+            }
+            a{
+                font-size: 32px;
+                font-weight: 500;
+                margin-top: auto;
+            }
+        }
+    }
+}

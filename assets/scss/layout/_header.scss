@@ -1,0 +1,61 @@
+.header{
+    &:before{
+        content: '';
+        height: 35px;
+        display: block;
+        background: #eee;
+    }
+    .group-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        height: 100px;
+        // background: #f00;
+    }
+    .logo{
+        @include pos-center;
+
+        a{
+            display: block;
+        }
+    }
+
+    .util-area{
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        top: 0;right: 0;
+        transform: translateY(-100%);
+        font-family: $font-kr;
+        a{
+            line-height: 35px;
+            color: #858585;
+            font-size: 14px;
+        }
+    }
+    .sns-area{
+        display: flex;
+        gap: 21px;
+        transform: translateX(-8px);
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            // background: #0f0;
+        }
+    }
+
+    .search-area{
+        .link-search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            border: 2px solid #ddd;
+        }
+    }
+}

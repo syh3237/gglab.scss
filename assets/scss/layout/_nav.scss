@@ -1,0 +1,22 @@
+.gnb{
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    .nav-list{
+        display: flex;
+    }
+    .nav-item{
+        flex: 1;
+        text-align: center;
+        &:hover{
+            .nav{
+                color: #d71609;
+            }
+        }
+        .nav{
+            display: block;
+            line-height: 60px;
+            font-family: $font-en;
+            font-weight: bold;
+        }
+    }
+}
